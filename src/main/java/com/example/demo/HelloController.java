@@ -15,7 +15,7 @@ import java.io.Serializable;
  */
 @RestController
 @EnableAutoConfiguration
-@RequestMapping("/hello")
+
 
 public class HelloController {
 
@@ -24,7 +24,7 @@ public class HelloController {
     @Autowired
     DemoService demoService;
 
-
+    @RequestMapping("/hello")
     public String say() {
         System.out.println("Hello springboot");
         return "你好，这是一个springboot 例子";
