@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.model;
 
 /**
  * Created by Administrator on 2018/4/3.
